@@ -1,0 +1,18 @@
+package _08_ExercicioFlow;
+
+import java.util.Scanner;
+
+public class Exercicio_14_Java {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double x;
+        System.out.println("programa iniciado, insira o numero de pecas montadas");
+        x = sc.nextDouble();
+        if (x == 0) {
+            System.out.println("erro, verificar robo");
+        }
+        else {
+            System.out.println("montagem em andamento");
+        }
+    }
+}
